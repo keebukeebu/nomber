@@ -9,8 +9,8 @@
 }
 
 body{
-    background-color: rgb(28, 27, 34);
-    color: beige;
+    background-color: rgb(72, 62, 81);
+    color: blue;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -25,11 +25,41 @@ section{
 .container{
     width: 90%;
     max-width: 450px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
-form {
+form, .number-fact {
     width: 100%;
     background-color: grey;
     padding: 20px;
     border-radius: 8px;
+}
+
+input[type="number"]{
+    width: 70%;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+input[type="number"]::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button{
+    display: inline-block;
+    width: 20%;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: monospace;
+} 
+
+.number-fact {
+    margin-top: 10px;
+    height:  auto;
+    
 }
